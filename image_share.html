@@ -1,0 +1,15 @@
+<head>
+  <title>image_share</title>
+</head>
+
+<body>
+  <h1>Welcome to Coursera!</h1>
+
+  {{> images}}
+</body>
+
+<template name="images">
+  {{#each images}}
+  <img src="{{img_src}}"  alt="{{img_alt}}" />
+  {{/each}}
+</template>
