@@ -22,3 +22,9 @@ twbs:bootstrap
 barbatus:stars-rating
 accounts-ui
 accounts-password
+accounts-facebook
+accounts-github
+accounts-google
+accounts-twitter
+accounts-weibo
+iron:router
