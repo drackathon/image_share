@@ -1,4 +1,4 @@
-if(Meteor.isServer){
+
   Meteor.startup(function(){
     if(Images.find().count()==0){
       for(var i=1;i<=16;i++){
@@ -12,4 +12,3 @@ if(Meteor.isServer){
       console.log("startup.js"+image);
     }
   }});
-}
